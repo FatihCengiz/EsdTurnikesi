@@ -18,7 +18,7 @@ ESD turnstiles are the access control systems of the turnstiles installed in the
 
 ## Run-Time Images
 
-[Image-1](image.png)
+![alt text](https://github.com/FatihCengiz/EsdTurnikesi/blob/master/image/MainForm.png)
 
 ## References 
 
