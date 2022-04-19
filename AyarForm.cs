@@ -118,7 +118,7 @@ namespace EsdTurnikesi
         private Button btnSil;
         private Button btnEkAyar;
         string pass = "AtsOlC*54AtsOlC*54";
-        public string connA = @"Data Source=192.168.0.8\MEYER;Initial Catalog=ALPPLAS_ESD_TURNIKE;User ID=esd;Password=AtsOlC*54AtsOlC*54; Connect Timeout = 5";
+        public string connA = @"Data Source=192.168.0.8\server_name;Initial Catalog=db_name;User ID=user;db_password; Connect Timeout = 5";
         static string getDesktopURL = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Software\esdLocalDb.mdf";
         public string connLocal = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = " + getDesktopURL + "; Integrated Security = True; Connect Timeout = 30";
         private bool firstTouch = true, flagConnetionAyar;
